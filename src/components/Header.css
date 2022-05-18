@@ -1,15 +1,17 @@
+
 .header__container{
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
-    margin: 20px 150px;
+    margin: 0px 50px;
 }
 .header__left{
     display: flex;
     justify-content: center;
 }
 .linkedin_icon{
-    height: 40px;
+    height: 32px;
     object-fit: contain;
     margin-right: 10px;
 }
@@ -17,7 +19,7 @@
     padding: 10px;
     display: flex;
     align-items: center;
-    height: 18px;
+    height: 12px;
     border-radius: 5px;
     color: gray;
     background-color: rgb(224, 240, 240);
@@ -26,4 +28,31 @@
     outline: none;
     border: none;
     background: none;
+}
+/*Right header code here*/
+.header__right{
+    display: flex;
+    text-align: center;
+}
+.header__right > .option__container{
+    padding: 0 10px;
+    color: gray;
+}
+.header__right > .option__container > svg{
+   font-size: 24px;
+   
+}
+.header__right > .option__container > p {
+    margin: 0;
+    font-size: 0.70rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header__right > .option__container:hover{
+    cursor: pointer;
+    color: black;
+}
+header{
+    border-bottom: 1px solid lightgray;
+    background-color: white;
+    padding: 5px 0;
 }
