@@ -1,0 +1,29 @@
+.header__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 150px;
+}
+.header__left{
+    display: flex;
+    justify-content: center;
+}
+.linkedin_icon{
+    height: 40px;
+    object-fit: contain;
+    margin-right: 10px;
+}
+.search_bar{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    height: 18px;
+    border-radius: 5px;
+    color: gray;
+    background-color: rgb(224, 240, 240);
+}
+.search_bar > input{
+    outline: none;
+    border: none;
+    background: none;
+}
