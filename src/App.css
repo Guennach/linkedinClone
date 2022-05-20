@@ -1,3 +1,14 @@
 body{
   background-color: rgb(240, 234, 234);
 }
+.content{
+  display: flex;
+}
+@media screen and (max-width:1000px) {
+  .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

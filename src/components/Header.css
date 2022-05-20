@@ -51,6 +51,14 @@
     cursor: pointer;
     color: black;
 }
+.header_option_avatar{
+    width: 30px!important;
+    height: 29px!important;
+}
+.header_option_avatar > img{
+    width: 30px;
+    height: 30px;
+}
 header{
     border-bottom: 1px solid lightgray;
     background-color: white;

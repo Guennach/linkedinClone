@@ -1,0 +1,32 @@
+.post{
+    display: flex;
+    align-items: center;
+}
+.feed__container{
+    background: white;
+    margin-top: 25px;
+    width: 550px;
+    border-radius: 25px;
+    padding: 0 20px;
+    border: 1px solid rgb(204, 201, 201);
+    height: 100%;
+}
+.post__avatar{
+    width: 100%;
+}
+.post__container{
+    margin: 15px 10px;
+    border: 1px solid rgb(142, 139, 139);
+    padding: 12px;
+    width: 100%;
+    border-radius: 25px;
+}
+.post__container > input{
+    border: none;
+    font-size: 0.9rem;
+    width: 100%;
+    outline: none;
+}
+#send{
+    display: none;
+}

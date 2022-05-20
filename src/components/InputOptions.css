@@ -1,0 +1,17 @@
+.feed__inputOptions{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+.inputOption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.option_title{
+    padding-left: 5px;
+    color: rgb(93, 86, 86);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 0.9rem;
+}

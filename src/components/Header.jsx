@@ -25,6 +25,7 @@ const Header = () => {
                     <HeaderOptions Icon={WorkIcon} title="Jobs" />
                     <HeaderOptions Icon={MessageIcon} title="Messaging" />
                     <HeaderOptions Icon={NotificationsIcon} title="Notifications" />
+                    <HeaderOptions avatar="https://g7y6h3a7.rocketcdn.me/wp-content/uploads/2020/03/dummy-image-square.jpg" title="me"/>
                 </div>
             </div>
         </header>
