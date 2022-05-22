@@ -1,4 +1,5 @@
 import "./Sidebar.css"
+import {Avatar} from "@mui/material"
 
 const Sidebar = () => {
     return (
@@ -8,7 +9,7 @@ const Sidebar = () => {
                     <img src="https://img.freepik.com/free-vector/blue-pink-halftone-background_53876-99004.jpg?w=2000" alt="background_profile" />
                 </div>
                 <div className="picture">
-                    <img src="https://g7y6h3a7.rocketcdn.me/wp-content/uploads/2020/03/dummy-image-square.jpg" alt="background_profile" />
+                    <Avatar/>
                 </div>
                 <div className="profile__information">
                     <h3 className="profile__name">dummy test</h3>

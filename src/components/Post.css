@@ -1,0 +1,28 @@
+.posts__container{
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 25px;
+    border: 1px solid lightgray;
+    padding: 25px;
+}
+.posts__container > .post__header{
+    display: flex;
+}
+.posts__container > .post__header > .post__info{
+    margin:     0px 10px;    
+}
+.posts__container > .post__header > .post__info > h4{
+    font-size: 0.85rem;
+}
+.posts__container > .post__header > .post__info > p{
+    font-size: 0.7rem;
+}
+.posts__container > .post__body{
+    margin: 15px 5px;
+}
+.posts__container > .post__buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+}
