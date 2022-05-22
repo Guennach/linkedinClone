@@ -21,10 +21,10 @@ function Post({name, description, message, photoUrl}) {
             <p>Message goes here</p>
         </div>
         <div className="post__buttons">
-            <InputOptions Icon={ThumbUpOffAltIcon} title="Like"/>
-            <InputOptions Icon={CommentIcon} title="Comment"/>
-            <InputOptions Icon={ShareIcon} title="Share"/>
-            <InputOptions Icon={SendIcon} title="Send"/>
+            <InputOptions Icon={ThumbUpOffAltIcon} title="Like" color="gray"/>
+            <InputOptions Icon={CommentIcon} title="Comment" color="gray"/>
+            <InputOptions Icon={ShareIcon} title="Share" color="gray"/>
+            <InputOptions Icon={SendIcon} title="Send" color="gray"/>
         </div>
     </div>
   )
